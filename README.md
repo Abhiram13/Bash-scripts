@@ -13,7 +13,6 @@ export PATH="$PATH:<full path to bash script>"
 Then close the file and enter following command in terminal
 ```
 source .zshrc
-
 ```
 
 ### Commands
@@ -26,9 +25,13 @@ cat <file-name>
 ### Condtionals
 
 `-z` - Zero length
+
 `-n` - Non zero length
-spaces between square brackets is important
+
+Spaces between square brackets is important
+
 NO --> `[-z $val]`
+
 YES --> `[ -z $val ]`
 
 ### Get current directory
