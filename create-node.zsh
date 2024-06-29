@@ -1,7 +1,7 @@
 title="node_folder"
 randomTitle="$RANDOM"
 folder="$title"_"$randomTitle"
-tsconfig_path=`cat /Users/abhiramnagadi/Documents/NodeJS\ projects/Payroll/tsconfig.json`
+tsconfig_path=`cat $HOME/Documents/NodeJS\ projects/Payroll/tsconfig.json`
 val=""
 
 echo $(pwd "$0")
